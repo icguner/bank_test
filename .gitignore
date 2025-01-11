@@ -3,3 +3,6 @@
 /.idea/
 /.gauge/
 /target/
+/target/test-classes/locators.json
+/target/test-classes/logback.xml
+/target/test-classes/

@@ -91,6 +91,7 @@ tags:uzunKartNumarasiIleParaYuklemeIslemi
 * Key değeri "addMoneyBtn" olan elemana tıklanır
 * Kart sahibi "Site Berbat" olarak girilir
 * Kart numarası "123412341234123412341234" olarak girilir
+* Kart cvv "674" olarak girilir
 * "Too Long!" metni sayfada var mı kontrol edilir
 
 Kısa Kart Numarası İle Para Yükleme İşlemi
@@ -103,6 +104,7 @@ tags:kisaKartNumarasiIleParaYuklemeIslemi
 * Key değeri "addMoneyBtn" olan elemana tıklanır
 * Kart sahibi "Site Berbat" olarak girilir
 * Kart numarası "3333" olarak girilir
+* Kart cvv "674" olarak girilir
 * "Too Short!" metni sayfada var mı kontrol edilir
 
 Yanlış Kart Numarası İle Para Yükleme İşlemi

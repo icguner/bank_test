@@ -194,7 +194,7 @@ public class CommonMethods {
     public void getLastTransactionAndCompareWithSentMoney(String money) {
         waitSecond(1);
         try {
-            String lastTransactionXpath = "//div[contains(text(),'Transactions')]//div[contains(text(),'Amount:')]/following-sibling::div//div[contains(text(),'" + money + "')]";
+            String lastTransactionXpath = "//div[contains(text(),'Transactions')]/following-sibling::div//div[contains(text(),'Amount:')]/following-sibling::div//div[contains(text(),'"+ money +"')]";
             WebElement amountElement = driver.findElement(By.xpath(lastTransactionXpath));
             log.info(money + " Gönderilen miktar son işlemlerde gözükmekte");
             Hooks.getScenario().pass(money + " Gönderilen miktar son işlemlerde gözükmekte");

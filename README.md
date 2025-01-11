@@ -13,8 +13,8 @@ Bu proje, **Selenium**, **Gauge** ve Java kullanılarak yazılmıştır.
     - **Yanlış Kullanıcı İle Giriş İşlemi**
     - **Doğru Kullanıcı İle Giriş İşlemi**
     - **Hesap Adı Değişikliği İşlemi**
-    - **Hesaba Para Gönderme İşlemi**
-    - **Hesaba Eksi Tutar İle Para Gönderme İşlemi**
+    - **Hesaba Para Gönderme İşlemi** --> Bu senaryo fail vermektedir girilen miktarın üstüne otomatik olarak 100 eklendiği için test patlar !!!
+    - **Hesaba Eksi Tutar İle Para Gönderme İşlemi** --> Bu senaryo fail vermektedir girilen miktarın üstüne otomatik olarak 100 eklendiği için test patlar !!!
     - **Eksik CVV İle Para Yükleme İşlemi**
     - **Yanlış Kart Tarihi İle Para Yükleme İşlemi**
     - **Uzun Kart Numarası İle Para Yükleme İşlemi**

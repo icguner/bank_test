@@ -1,0 +1,5 @@
+/logs/
+/gauge_bin/
+/.idea/
+/.gauge/
+/target/

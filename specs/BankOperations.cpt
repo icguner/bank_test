@@ -1,0 +1,47 @@
+Created by Dequ on 10.01.2025
+
+This is a concept file with following syntax for each concept.
+# <kullaniciAdi> ve <sifre> bilgileri ile uygulamaya giris yapilir
+* Key değeri "username" olan elemana <kullaniciAdi> yazılır
+* Key değeri "password" olan elemana <sifre> yazılır
+* Key değeri "loginBtn" olan elemana tıklanır
+
+# Uygulamaya giriş yapılamadığı kontrol edilir
+* "1" saniye beklenir
+* "Username or Password Invalid!" metni sayfada var mı kontrol edilir
+
+# Uygulamaya giriş yapıldığı kontrol edilir
+* "1" saniye beklenir
+* "logOutBtn" elementi sayfada var mı kontrol edilir
+
+# Edit account butonuna tıklanır
+* Key değeri "editAccountBtn" olan elemana tıklanır
+
+# Hesap adı <hesapAdi> olarak değiştirilir, kaydedilir
+* Key değeri "accountNameInput" olan eleman önce silinir sonra <hesapAdi> yazılır
+* Key değeri "updateBtn" olan elemana tıklanır
+
+# Hesap adının <hesapAdi> olarak değiştirildiği kontrol edilir
+* <hesapAdi> metni sayfada var mı kontrol edilir
+
+# <miktar> tutarı girilir, yollanır
+* Key değeri "priceAmountInput" olan elemana <miktar> yazılır
+* Key değeri "sendBtn" olan elemana tıklanır
+
+# Tutarın gönderilmediği kontrol edilir
+* "Internal Error Occurred!" metni sayfada var mı kontrol edilir
+
+# Kart numarası <number> olarak girilir
+* Key değeri "cardNumberInput" olan elemana <number> yazılır
+
+# Kart ay yıl bilgisi <ayyil> olarak girilir
+* Key değeri "expiryDateInput" olan elemana <ayyil> yazılır
+
+# Kart cvv <ccv> olarak girilir
+* Key değeri "cvvInput" olan elemana <ccv> yazılır
+
+# Kart sahibi <isim> olarak girilir
+* Key değeri "cardHolderInput" olan elemana <isim> yazılır
+
+# Yatıralacak tutar <tutar> olarak girilir
+* Key değeri "cardPriceAmountInput" olan elemana <tutar> yazılır

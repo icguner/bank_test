@@ -1,0 +1,92 @@
+[
+  {
+    "elementName": "username",
+    "elementValue": "//input[@placeholder=\"Username\"]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "password",
+    "elementValue": "//input[@placeholder=\"Password\"]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "loginBtn",
+    "elementValue": "//div[text() = \"Login\"]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "logOutBtn",
+    "elementValue": "//div[text() = \"Logout\"]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "openMoneyTransferBtn",
+    "elementValue": "//div[text() = \"Open Money Transfer\"]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "transferMoneyBtn",
+    "elementValue": "//div[text() = \"Transfer money\"]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "addMoneyBtn",
+    "elementValue": "//div[text() = \"Add money\"]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "addBtn",
+    "elementValue": "//div[text() = \"Add\"]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "cardNumberInput",
+    "elementValue": "//div[text()='Card number']/following::input[1]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "cardHolderInput",
+    "elementValue": "//div[text()='Card holder']/following::input[1]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "expiryDateInput",
+    "elementValue": "//div[text()='Expiry date']/following::input[1]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "cardPriceAmountInput",
+    "elementValue": "//div[text()='Amount']/following-sibling::input",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "cvvInput",
+    "elementValue": "//div[text()='CVV']/following::input[1]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "editAccountBtn",
+    "elementValue": "//div[text() = \"Edit account\"]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "accountNameInput",
+    "elementValue": "//div[text()='Account name']/following::input[1]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "updateBtn",
+    "elementValue": "//div[text() = \"UPDATE\"]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "priceAmountInput",
+    "elementValue": "//div[text()='Amount']/following::input[1]",
+    "elementType": "xpath"
+  },
+  {
+    "elementName": "sendBtn",
+    "elementValue": "//div[text() = \"Send\"]",
+    "elementType": "xpath"
+  }
+]

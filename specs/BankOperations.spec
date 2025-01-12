@@ -38,8 +38,8 @@ tags:hesapAdiDegisikligi
 * Uygulamaya giriş yapıldığı kontrol edilir
 * Key değeri "openMoneyTransferBtn" olan elemana tıklanır
 * Key değeri "transferMoneyBtn" olan elemana tıklanır
-* "555" tutarı girilir, yollanır
-* "555" yolladığım tutar son işlemlerde var mı kontrol edilir
+* "769" tutarı girilir, yollanır
+* "769" yolladığım tutar son işlemlerde var mı kontrol edilir
 
 Hesaba Eksi Tutar İle Para Gönderme İşlemi
 --------------------------------
@@ -49,7 +49,7 @@ tags:hesapEksiTutarIleParaGondermeIslemi
 * Uygulamaya giriş yapıldığı kontrol edilir
 * Key değeri "openMoneyTransferBtn" olan elemana tıklanır
 * Key değeri "transferMoneyBtn" olan elemana tıklanır
-* "-11111111111111111111111111" tutarı girilir, yollanır
+* "-1111" tutarı girilir, yollanır
 * Tutarın gönderilmediği kontrol edilir
 
 Eksik CVV İle Para Yükleme İşlemi
@@ -137,4 +137,5 @@ tags:yanlisKartBilgileriIleParaYuklemeIslemi
 * Kart cvv "674" olarak girilir
 * Yatıralacak tutar "1500" olarak girilir
 * Key değeri "addBtn" olan elemana tıklanır
+* "2" saniye beklenir
 * "1,500" yolladığım tutar son işlemlerde var mı kontrol edilir
